@@ -1,4 +1,4 @@
--- Gui to Lua UPDATED TO NEW
+-- Gui to Lua UPDATED TO NEW 2
 -- Version: 3.2
 
 -- Instances:
@@ -807,7 +807,7 @@ local function MZDTBWJ_fake_script() -- TextLabel.LocalScript
 		script.Parent.TextColor3 = Color3.new(1, 1, 1)
 		wait(0.05)
 		script.Parent.TextColor3 = Color3.new(1, 0, 0)
-		script.Parent.Text = "CERBERUS HERE"
+		script.Parent.Text = "CERBERUS IS HERE"
 		wait(0.2)
 		script.Parent.TextColor3 = Color3.new(0.333333, 0, 0)
 		script.Parent.Text = "CERBERUS UTG"
