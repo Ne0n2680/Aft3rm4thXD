@@ -1,0 +1,1252 @@
+-- Gui to Lua UPDATED TO NEW 2
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local ExecutorButton = Instance.new("TextButton")
+local Frame_4 = Instance.new("Frame")
+local ScriptButton = Instance.new("TextButton")
+local SettingsButton = Instance.new("TextButton")
+local ScriptFrame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextButton_10 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_11 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextButton_12 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextButton_13 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextButton_14 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextButton_15 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local TextButton_16 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextButton_17 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local TextButton_18 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local TextButton_19 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_20 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_21 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextButton_22 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextButton_23 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextButton_24 = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local TextButton_25 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TextButton_26 = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local TextButton_27 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local TextButton_28 = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local TextButton_29 = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local TextButton_30 = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local TextButton_31 = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local TextButton_32 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local TextButton_33 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local TextButton_34 = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local TextButton_35 = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local TextButton_36 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local TextButton_37 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local TextButton_38 = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
+local ExeFrame = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local UIGradient = Instance.new("UIGradient")
+local SettingsFrame = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_39 = Instance.new("TextButton")
+local TextButton2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Frame.Position = UDim2.new(0.380686373, 0, 0.400981963, 0)
+Frame.Size = UDim2.new(0, 479, 0, 257)
+
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(186, 186, 186)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.348643005, 0, 0.0350194536, 0)
+TextLabel.Size = UDim2.new(0, 141, 0, 20)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "Project : Cerberus"
+TextLabel.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(186, 186, 186)
+Frame_2.BackgroundTransparency = 1.000
+Frame_2.Position = UDim2.new(0.0908200592, 0, 0.166748405, 0)
+Frame_2.Size = UDim2.new(0, 20, 0, 4)
+
+UICorner_2.Parent = Frame_2
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(186, 186, 186)
+Frame_3.Position = UDim2.new(0.0908203125, 0, 0.166748047, 0)
+Frame_3.Size = UDim2.new(0, 387, 0, 4)
+
+ExecutorButton.Name = "ExecutorButton"
+ExecutorButton.Parent = Frame
+ExecutorButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorButton.BackgroundTransparency = 1.000
+ExecutorButton.Position = UDim2.new(0.0939457193, 0, 0.836575866, 0)
+ExecutorButton.Size = UDim2.new(0, 125, 0, 26)
+ExecutorButton.Font = Enum.Font.GothamBlack
+ExecutorButton.Text = "Executor"
+ExecutorButton.TextColor3 = Color3.fromRGB(159, 159, 159)
+ExecutorButton.TextSize = 15.000
+ExecutorButton.TextWrapped = true
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(186, 186, 186)
+Frame_4.Position = UDim2.new(0.092907995, 0, 0.762078762, 0)
+Frame_4.Size = UDim2.new(0, 387, 0, 4)
+
+ScriptButton.Name = "ScriptButton"
+ScriptButton.Parent = Frame
+ScriptButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptButton.BackgroundTransparency = 1.000
+ScriptButton.Position = UDim2.new(0.365344465, 0, 0.836575866, 0)
+ScriptButton.Size = UDim2.new(0, 125, 0, 26)
+ScriptButton.Font = Enum.Font.GothamBlack
+ScriptButton.Text = "Script-Hub"
+ScriptButton.TextColor3 = Color3.fromRGB(159, 159, 159)
+ScriptButton.TextSize = 15.000
+ScriptButton.TextWrapped = true
+
+SettingsButton.Name = "SettingsButton"
+SettingsButton.Parent = Frame
+SettingsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsButton.BackgroundTransparency = 1.000
+SettingsButton.Position = UDim2.new(0.6388309, 0, 0.836575866, 0)
+SettingsButton.Size = UDim2.new(0, 125, 0, 26)
+SettingsButton.Font = Enum.Font.GothamBlack
+SettingsButton.Text = "Settings"
+SettingsButton.TextColor3 = Color3.fromRGB(159, 159, 159)
+SettingsButton.TextSize = 15.000
+SettingsButton.TextWrapped = true
+
+ScriptFrame.Name = "ScriptFrame"
+ScriptFrame.Parent = Frame
+ScriptFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ScriptFrame.BorderSizePixel = 0
+ScriptFrame.Position = UDim2.new(0.118997909, 0, 0.225680932, 0)
+ScriptFrame.Size = UDim2.new(0, 365, 0, 130)
+ScriptFrame.Visible = false
+
+ScrollingFrame.Parent = ScriptFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, -0.0009881882, 0)
+ScrollingFrame.Size = UDim2.new(0, 373, 0, 125)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 50, 0)
+ScrollingFrame.ScrollBarThickness = 2
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton.Position = UDim2.new(0.0373619571, 0, 0.00186462095, 0)
+TextButton.Size = UDim2.new(0, 100, 0, 25)
+TextButton.Text = "Angel"
+TextButton.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton.TextScaled = true
+TextButton.TextSize = 10.000
+TextButton.TextWrapped = true
+
+UICorner_3.Parent = TextButton
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_2.Position = UDim2.new(0.672750711, 0, 0.00785738695, 0)
+TextButton_2.Size = UDim2.new(0, 100, 0, 25)
+TextButton_2.Text = "SCP-106"
+TextButton_2.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 10.000
+TextButton_2.TextWrapped = true
+
+UICorner_4.Parent = TextButton_2
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_3.Position = UDim2.new(0.0346809849, 0, 0.0372283347, 0)
+TextButton_3.Size = UDim2.new(0, 100, 0, 25)
+TextButton_3.Text = "Warden"
+TextButton_3.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 10.000
+TextButton_3.TextWrapped = true
+
+UICorner_5.Parent = TextButton_3
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_4.Position = UDim2.new(0.667388737, 0, 0.0309514049, 0)
+TextButton_4.Size = UDim2.new(0, 100, 0, 25)
+TextButton_4.Text = "Matteo  Flame Thrower"
+TextButton_4.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 10.000
+TextButton_4.TextWrapped = true
+
+UICorner_6.Parent = TextButton_4
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_5.Position = UDim2.new(0.348353922, 0, 0.0310744848, 0)
+TextButton_5.Size = UDim2.new(0, 100, 0, 25)
+TextButton_5.Text = "The mask"
+TextButton_5.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 10.000
+TextButton_5.TextWrapped = true
+
+UICorner_7.Parent = TextButton_5
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_6.Position = UDim2.new(0.353715837, 0, 0.00180073362, 0)
+TextButton_6.Size = UDim2.new(0, 100, 0, 25)
+TextButton_6.Text = "The sun is a deadly laser"
+TextButton_6.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 10.000
+TextButton_6.TextWrapped = true
+
+UICorner_8.Parent = TextButton_6
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_7.Position = UDim2.new(0.667388737, 0, 0.00182954781, 0)
+TextButton_7.Size = UDim2.new(0, 100, 0, 25)
+TextButton_7.Text = "Cop"
+TextButton_7.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 10.000
+TextButton_7.TextWrapped = true
+
+UICorner_9.Parent = TextButton_7
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_8.Position = UDim2.new(0.353715837, 0, 0.00789011084, 0)
+TextButton_8.Size = UDim2.new(0, 100, 0, 25)
+TextButton_8.Text = "Grab kinfe V3"
+TextButton_8.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 10.000
+TextButton_8.TextWrapped = true
+
+UICorner_10.Parent = TextButton_8
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_9.Position = UDim2.new(0.0373619497, 0, 0.00794774015, 0)
+TextButton_9.Size = UDim2.new(0, 100, 0, 25)
+TextButton_9.Text = "Dragon stand"
+TextButton_9.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 10.000
+TextButton_9.TextWrapped = true
+
+UICorner_11.Parent = TextButton_9
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_10.Position = UDim2.new(0.0373619497, 0, 0.014448843, 0)
+TextButton_10.Size = UDim2.new(0, 100, 0, 25)
+TextButton_10.Text = "The big black"
+TextButton_10.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 10.000
+TextButton_10.TextWrapped = true
+
+UICorner_12.Parent = TextButton_10
+
+TextButton_11.Parent = ScrollingFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_11.Position = UDim2.new(0.348353922, 0, 0.0935360193, 0)
+TextButton_11.Size = UDim2.new(0, 100, 0, 25)
+TextButton_11.Text = "Mech Suit"
+TextButton_11.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 10.000
+TextButton_11.TextWrapped = true
+
+UICorner_13.Parent = TextButton_11
+
+TextButton_12.Parent = ScrollingFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_12.Position = UDim2.new(0.353715837, 0, 0.0145582408, 0)
+TextButton_12.Size = UDim2.new(0, 100, 0, 25)
+TextButton_12.Text = "Assasian"
+TextButton_12.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 10.000
+TextButton_12.TextWrapped = true
+
+UICorner_14.Parent = TextButton_12
+
+TextButton_13.Parent = ScrollingFrame
+TextButton_13.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_13.Position = UDim2.new(0.667388797, 0, 0.0703667849, 0)
+TextButton_13.Size = UDim2.new(0, 100, 0, 25)
+TextButton_13.Text = "Zenith rifle"
+TextButton_13.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_13.TextScaled = true
+TextButton_13.TextSize = 10.000
+TextButton_13.TextWrapped = true
+
+UICorner_15.Parent = TextButton_13
+
+TextButton_14.Parent = ScrollingFrame
+TextButton_14.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_14.Position = UDim2.new(0.667388737, 0, 0.0144571448, 0)
+TextButton_14.Size = UDim2.new(0, 100, 0, 25)
+TextButton_14.Text = "Eye ball"
+TextButton_14.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_14.TextScaled = true
+TextButton_14.TextSize = 10.000
+TextButton_14.TextWrapped = true
+
+UICorner_16.Parent = TextButton_14
+
+TextButton_15.Parent = ScrollingFrame
+TextButton_15.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_15.Position = UDim2.new(0.0373619497, 0, 0.0241030529, 0)
+TextButton_15.Size = UDim2.new(0, 100, 0, 25)
+TextButton_15.Text = "Big Sword"
+TextButton_15.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_15.TextScaled = true
+TextButton_15.TextSize = 10.000
+TextButton_15.TextWrapped = true
+
+UICorner_17.Parent = TextButton_15
+
+TextButton_16.Parent = ScrollingFrame
+TextButton_16.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_16.Position = UDim2.new(0.348353922, 0, 0.0242144074, 0)
+TextButton_16.Size = UDim2.new(0, 100, 0, 25)
+TextButton_16.Text = "Omni god"
+TextButton_16.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_16.TextScaled = true
+TextButton_16.TextSize = 10.000
+TextButton_16.TextWrapped = true
+
+UICorner_18.Parent = TextButton_16
+
+TextButton_17.Parent = ScrollingFrame
+TextButton_17.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_17.Position = UDim2.new(0.0373619497, 0, 0.077074483, 0)
+TextButton_17.Size = UDim2.new(0, 100, 0, 25)
+TextButton_17.Text = "Ban hammer"
+TextButton_17.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_17.TextScaled = true
+TextButton_17.TextSize = 10.000
+TextButton_17.TextWrapped = true
+
+UICorner_19.Parent = TextButton_17
+
+TextButton_18.Parent = ScrollingFrame
+TextButton_18.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_18.Position = UDim2.new(0.0346809849, 0, 0.031105252, 0)
+TextButton_18.Size = UDim2.new(0, 100, 0, 25)
+TextButton_18.Text = "God slayer"
+TextButton_18.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_18.TextScaled = true
+TextButton_18.TextSize = 10.000
+TextButton_18.TextWrapped = true
+
+UICorner_20.Parent = TextButton_18
+
+TextButton_19.Parent = ScrollingFrame
+TextButton_19.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_19.Position = UDim2.new(0.667388737, 0, 0.0240898672, 0)
+TextButton_19.Size = UDim2.new(0, 100, 0, 25)
+TextButton_19.Text = "Caducus"
+TextButton_19.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_19.TextScaled = true
+TextButton_19.TextSize = 10.000
+TextButton_19.TextWrapped = true
+
+UICorner_21.Parent = TextButton_19
+
+TextButton_20.Parent = ScrollingFrame
+TextButton_20.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_20.Position = UDim2.new(0.0346809998, 0, 0.0935360193, 0)
+TextButton_20.Size = UDim2.new(0, 100, 0, 25)
+TextButton_20.Text = "Madiik Flame Thrower"
+TextButton_20.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_20.TextScaled = true
+TextButton_20.TextSize = 10.000
+TextButton_20.TextWrapped = true
+
+UICorner_22.Parent = TextButton_20
+
+TextButton_21.Parent = ScrollingFrame
+TextButton_21.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_21.Position = UDim2.new(0.348353893, 0, 0.0372283347, 0)
+TextButton_21.Size = UDim2.new(0, 100, 0, 25)
+TextButton_21.Text = "Claws"
+TextButton_21.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_21.TextScaled = true
+TextButton_21.TextSize = 10.000
+TextButton_21.TextWrapped = true
+
+UICorner_23.Parent = TextButton_21
+
+TextButton_22.Parent = ScrollingFrame
+TextButton_22.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_22.Position = UDim2.new(0.667388737, 0, 0.0373514071, 0)
+TextButton_22.Size = UDim2.new(0, 100, 0, 25)
+TextButton_22.Text = "Star glitcher"
+TextButton_22.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_22.TextScaled = true
+TextButton_22.TextSize = 10.000
+TextButton_22.TextWrapped = true
+
+UICorner_24.Parent = TextButton_22
+
+TextButton_23.Parent = ScrollingFrame
+TextButton_23.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_23.Position = UDim2.new(0.667388737, 0, 0.083843708, 0)
+TextButton_23.Size = UDim2.new(0, 100, 0, 25)
+TextButton_23.Text = "Grab Knife V4"
+TextButton_23.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_23.TextScaled = true
+TextButton_23.TextSize = 10.000
+TextButton_23.TextWrapped = true
+
+UICorner_25.Parent = TextButton_23
+
+TextButton_24.Parent = ScrollingFrame
+TextButton_24.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_24.Position = UDim2.new(0.353715867, 0, 0.083843708, 0)
+TextButton_24.Size = UDim2.new(0, 100, 0, 25)
+TextButton_24.Text = "Rainbow king"
+TextButton_24.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_24.TextScaled = true
+TextButton_24.TextSize = 10.000
+TextButton_24.TextWrapped = true
+
+UICorner_26.Parent = TextButton_24
+
+TextButton_25.Parent = ScrollingFrame
+TextButton_25.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_25.Position = UDim2.new(0.0266380981, 0, 0.0479360335, 0)
+TextButton_25.Size = UDim2.new(0, 100, 0, 25)
+TextButton_25.Text = "Echo"
+TextButton_25.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_25.TextScaled = true
+TextButton_25.TextSize = 10.000
+TextButton_25.TextWrapped = true
+
+UICorner_27.Parent = TextButton_25
+
+TextButton_26.Parent = ScrollingFrame
+TextButton_26.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_26.Position = UDim2.new(0.0373619422, 0, 0.0704898685, 0)
+TextButton_26.Size = UDim2.new(0, 100, 0, 25)
+TextButton_26.Text = "Scythe"
+TextButton_26.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_26.TextScaled = true
+TextButton_26.TextSize = 10.000
+TextButton_26.TextWrapped = true
+
+UICorner_28.Parent = TextButton_26
+
+TextButton_27.Parent = ScrollingFrame
+TextButton_27.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_27.Position = UDim2.new(0.353715867, 0, 0.0704590976, 0)
+TextButton_27.Size = UDim2.new(0, 100, 0, 25)
+TextButton_27.Text = "Dath vader"
+TextButton_27.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_27.TextScaled = true
+TextButton_27.TextSize = 10.000
+TextButton_27.TextWrapped = true
+
+UICorner_29.Parent = TextButton_27
+
+TextButton_28.Parent = ScrollingFrame
+TextButton_28.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_28.Position = UDim2.new(0.353715837, 0, 0.0479360223, 0)
+TextButton_28.Size = UDim2.new(0, 100, 0, 25)
+TextButton_28.Text = "John doe"
+TextButton_28.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_28.TextScaled = true
+TextButton_28.TextSize = 10.000
+TextButton_28.TextWrapped = true
+
+UICorner_30.Parent = TextButton_28
+
+TextButton_29.Parent = ScrollingFrame
+TextButton_29.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_29.Position = UDim2.new(0.672750711, 0, 0.0478744879, 0)
+TextButton_29.Size = UDim2.new(0, 100, 0, 25)
+TextButton_29.Text = "Drone"
+TextButton_29.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_29.TextScaled = true
+TextButton_29.TextSize = 10.000
+TextButton_29.TextWrapped = true
+
+UICorner_31.Parent = TextButton_29
+
+TextButton_30.Parent = ScrollingFrame
+TextButton_30.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_30.Position = UDim2.new(0.0266380887, 0, 0.0541821867, 0)
+TextButton_30.Size = UDim2.new(0, 100, 0, 25)
+TextButton_30.Text = "Dark magic"
+TextButton_30.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_30.TextScaled = true
+TextButton_30.TextSize = 10.000
+TextButton_30.TextWrapped = true
+
+UICorner_32.Parent = TextButton_30
+
+TextButton_31.Parent = ScrollingFrame
+TextButton_31.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_31.Position = UDim2.new(0.348353893, 0, 0.0542437248, 0)
+TextButton_31.Size = UDim2.new(0, 100, 0, 25)
+TextButton_31.Text = "Minigun"
+TextButton_31.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_31.TextScaled = true
+TextButton_31.TextSize = 10.000
+TextButton_31.TextWrapped = true
+
+UICorner_33.Parent = TextButton_31
+
+TextButton_32.Parent = ScrollingFrame
+TextButton_32.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_32.Position = UDim2.new(0.672750711, 0, 0.0542437211, 0)
+TextButton_32.Size = UDim2.new(0, 100, 0, 25)
+TextButton_32.Text = "Bolt action / sniper"
+TextButton_32.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_32.TextScaled = true
+TextButton_32.TextSize = 10.000
+TextButton_32.TextWrapped = true
+
+UICorner_34.Parent = TextButton_32
+
+TextButton_33.Parent = ScrollingFrame
+TextButton_33.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_33.Position = UDim2.new(0.0266380906, 0, 0.0604898706, 0)
+TextButton_33.Size = UDim2.new(0, 100, 0, 25)
+TextButton_33.Text = "Killer"
+TextButton_33.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_33.TextScaled = true
+TextButton_33.TextSize = 10.000
+TextButton_33.TextWrapped = true
+
+UICorner_35.Parent = TextButton_33
+
+TextButton_34.Parent = ScrollingFrame
+TextButton_34.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_34.Position = UDim2.new(0.348353922, 0, 0.0604591072, 0)
+TextButton_34.Size = UDim2.new(0, 100, 0, 25)
+TextButton_34.Text = "Sharp shooter"
+TextButton_34.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_34.TextScaled = true
+TextButton_34.TextSize = 10.000
+TextButton_34.TextWrapped = true
+
+UICorner_36.Parent = TextButton_34
+
+TextButton_35.Parent = ScrollingFrame
+TextButton_35.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_35.Position = UDim2.new(0.672750652, 0, 0.0604283325, 0)
+TextButton_35.Size = UDim2.new(0, 100, 0, 25)
+TextButton_35.Text = "Corrupted overseer"
+TextButton_35.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_35.TextScaled = true
+TextButton_35.TextSize = 10.000
+TextButton_35.TextWrapped = true
+
+UICorner_37.Parent = TextButton_35
+
+TextButton_36.Parent = ScrollingFrame
+TextButton_36.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_36.Position = UDim2.new(0.0373619497, 0, 0.083843708, 0)
+TextButton_36.Size = UDim2.new(0, 100, 0, 25)
+TextButton_36.Text = "Scythe V2"
+TextButton_36.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_36.TextScaled = true
+TextButton_36.TextSize = 10.000
+TextButton_36.TextWrapped = true
+
+UICorner_38.Parent = TextButton_36
+
+TextButton_37.Parent = ScrollingFrame
+TextButton_37.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_37.Position = UDim2.new(0.667388737, 0, 0.076920636, 0)
+TextButton_37.Size = UDim2.new(0, 100, 0, 25)
+TextButton_37.Text = "Guns"
+TextButton_37.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_37.TextScaled = true
+TextButton_37.TextSize = 10.000
+TextButton_37.TextWrapped = true
+
+UICorner_39.Parent = TextButton_37
+
+TextButton_38.Parent = ScrollingFrame
+TextButton_38.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+TextButton_38.Position = UDim2.new(0.353715837, 0, 0.0770744756, 0)
+TextButton_38.Size = UDim2.new(0, 100, 0, 25)
+TextButton_38.Text = "Wings"
+TextButton_38.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_38.TextScaled = true
+TextButton_38.TextSize = 10.000
+TextButton_38.TextWrapped = true
+
+UICorner_40.Parent = TextButton_38
+
+ExeFrame.Name = "ExeFrame"
+ExeFrame.Parent = Frame
+ExeFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ExeFrame.BorderSizePixel = 0
+ExeFrame.Position = UDim2.new(0.118997909, 0, 0.229571983, 0)
+ExeFrame.Size = UDim2.new(0, 365, 0, 126)
+
+Frame_5.Parent = ExeFrame
+Frame_5.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.101369865, 0, 0, 0)
+Frame_5.Size = UDim2.new(0, 2, 0, 126)
+
+TextLabel_2.Parent = ExeFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(186, 186, 186)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(-0.00684162276, 0, -0.00466313446, 0)
+TextLabel_2.Size = UDim2.new(0, 39, 0, 17)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "1"
+TextLabel_2.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextBox.Parent = ExeFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Position = UDim2.new(0.12602739, 0, 0, 0)
+TextBox.Size = UDim2.new(0, 319, 0, 126)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.PlaceholderText = "Input()"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.18, Color3.fromRGB(117, 117, 117)), ColorSequenceKeypoint.new(0.35, Color3.fromRGB(103, 103, 103)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.74, Color3.fromRGB(56, 56, 56)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Frame
+
+SettingsFrame.Name = "SettingsFrame"
+SettingsFrame.Parent = Frame
+SettingsFrame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+SettingsFrame.BorderSizePixel = 0
+SettingsFrame.Position = UDim2.new(0.118997909, 0, 0.229571983, 0)
+SettingsFrame.Size = UDim2.new(0, 365, 0, 126)
+SettingsFrame.Visible = false
+
+TextLabel_3.Parent = SettingsFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(186, 186, 186)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.00136216916, 0, -0.00466313446, 0)
+TextLabel_3.Size = UDim2.new(0, 367, 0, 21)
+TextLabel_3.Font = Enum.Font.GothamBlack
+TextLabel_3.Text = "Hello, thank you for using Project : Cerberus, run any script, in any game, without error."
+TextLabel_3.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = SettingsFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(186, 186, 186)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.352062494, 0, 0.463590801, 0)
+TextLabel_4.Size = UDim2.new(0, 114, 0, 21)
+TextLabel_4.Font = Enum.Font.GothamBlack
+TextLabel_4.Text = "Admin prefix  = ;"
+TextLabel_4.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextLabel_5.Parent = SettingsFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(186, 186, 186)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.341103613, 0, 0.273114622, 0)
+TextLabel_5.Size = UDim2.new(0, 126, 0, 21)
+TextLabel_5.Font = Enum.Font.GothamBlack
+TextLabel_5.Text = "Made by Polaris#2680"
+TextLabel_5.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextButton_39.Parent = SettingsFrame
+TextButton_39.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+TextButton_39.BackgroundTransparency = 0.900
+TextButton_39.Position = UDim2.new(0.334721357, 0, 0.725464761, 0)
+TextButton_39.Size = UDim2.new(0, 125, 0, 26)
+TextButton_39.Font = Enum.Font.GothamBlack
+TextButton_39.Text = "Disable Name"
+TextButton_39.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton_39.TextSize = 15.000
+TextButton_39.TextWrapped = true
+
+TextButton2.Name = "TextButton2"
+TextButton2.Parent = SettingsFrame
+TextButton2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+TextButton2.BackgroundTransparency = 0.900
+TextButton2.Position = UDim2.new(0.334721357, 0, 0.725464761, 0)
+TextButton2.Size = UDim2.new(0, 125, 0, 26)
+TextButton2.Visible = false
+TextButton2.Font = Enum.Font.GothamBlack
+TextButton2.Text = "Enable Name"
+TextButton2.TextColor3 = Color3.fromRGB(159, 159, 159)
+TextButton2.TextSize = 15.000
+TextButton2.TextWrapped = true
+
+-- Scripts:
+
+local function PLHPNTL_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do
+		script.Parent.Rotation = 0
+		wait(0.1)
+		script.Parent.Rotation = 5
+		wait(0.1)
+		script.Parent.Rotation = 0
+		wait(0.1)
+		script.Parent.Rotation = -5
+		wait(0.1)
+	end
+end
+coroutine.wrap(PLHPNTL_fake_script)()
+local function ZXGORDO_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do
+		script.Parent.TextScaled = true
+		wait(0.2)
+		script.Parent.TextScaled = false
+		wait(0.2)
+	end
+end
+coroutine.wrap(ZXGORDO_fake_script)()
+local function MZDTBWJ_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do
+		script.Parent.TextColor3 = Color3.new(1, 0, 0)
+		wait(0.2)
+		script.Parent.TextColor3 = Color3.new(0.301961, 0.301961, 0.301961)
+		script.Parent.Text = "WE ARE BACK"
+		wait(0.2)
+		script.Parent.TextColor3 = Color3.new(1, 1, 1)
+		wait(0.05)
+		script.Parent.TextColor3 = Color3.new(1, 0, 0)
+		script.Parent.Text = "CERBERUS IS HERE"
+		wait(0.2)
+		script.Parent.TextColor3 = Color3.new(0.333333, 0, 0)
+		script.Parent.Text = "CERBERUS UTG"
+		wait(0.2)
+		script.Parent.Text = "Project : Cerberus"
+	end
+end
+coroutine.wrap(MZDTBWJ_fake_script)()
+local function XIKR_fake_script() -- ExecutorButton.LocalScript 
+	local script = Instance.new('LocalScript', ExecutorButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ExeFrame.Visible = true
+		script.Parent.Parent.ScriptFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = false
+	end)
+end
+coroutine.wrap(XIKR_fake_script)()
+local function OBMI_fake_script() -- Frame_4.LocalScript 
+	local script = Instance.new('LocalScript', Frame_4)
+
+	
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.className == "Sound" then
+				v:Stop()
+				v:Remove()	
+			end	
+		end
+		s = Instance.new("Sound",game.Workspace)
+		s.SoundId = "rbxassetid://6706935653"
+		s.Volume = 3
+		s.Looped = false
+		s.Pitch = 1
+		s:Play()
+		
+	
+	
+		local object = script.Parent
+		--object.AnchorPoint = Vector2.new(0.5, 0.5)
+		--object.Position = UDim2.new(0.5, 0, 0.5, 0)
+		wait(0)
+		object:TweenSize(UDim2.new(0.82, 0, 0.02, 0))
+	
+		wait(1)
+		object:TweenSize(UDim2.new(0.82, 0, 0.02, 0))
+	
+end
+coroutine.wrap(OBMI_fake_script)()
+local function WJKI_fake_script() -- ScriptButton.LocalScript 
+	local script = Instance.new('LocalScript', ScriptButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ExeFrame.Visible = false
+		script.Parent.Parent.ScriptFrame.Visible = true
+		script.Parent.Parent.SettingsFrame.Visible = false
+	end)
+end
+coroutine.wrap(WJKI_fake_script)()
+local function CEGXDE_fake_script() -- SettingsButton.LocalScript 
+	local script = Instance.new('LocalScript', SettingsButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ExeFrame.Visible = false
+		script.Parent.Parent.SettingsFrame.Visible = true
+		script.Parent.Parent.ScriptFrame.Visible = false
+	end)
+end
+coroutine.wrap(CEGXDE_fake_script)()
+local function MCUQPVQ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Angel'))()
+	end)
+end
+coroutine.wrap(MCUQPVQ_fake_script)()
+local function QRQAHBX_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/scp'))()
+	end)
+end
+coroutine.wrap(QRQAHBX_fake_script)()
+local function VOCIF_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/warden'))()
+	end)
+end
+coroutine.wrap(VOCIF_fake_script)()
+local function NDAKKG_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/MatteoFlameThrower'))()
+	end)
+end
+coroutine.wrap(NDAKKG_fake_script)()
+local function UYSXXCQ_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/The%20Mask'))()
+	end)
+end
+coroutine.wrap(UYSXXCQ_fake_script)()
+local function NIAD_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Sun'))()
+	end)
+end
+coroutine.wrap(NIAD_fake_script)()
+local function ZZMINEP_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/cop'))()
+	end)
+end
+coroutine.wrap(ZZMINEP_fake_script)()
+local function EHGAY_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/GrabKnifeV3'))()
+	end)
+end
+coroutine.wrap(EHGAY_fake_script)()
+local function MYLW_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/dragonstand'))()
+	end)
+end
+coroutine.wrap(MYLW_fake_script)()
+local function HODDQM_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/bigblack'))()
+	end)
+end
+coroutine.wrap(HODDQM_fake_script)()
+local function GRJYD_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/MechSuit'))()
+	end)
+end
+coroutine.wrap(GRJYD_fake_script)()
+local function MGJXT_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/ASSSS'))()
+	end)
+end
+coroutine.wrap(MGJXT_fake_script)()
+local function NTCNSMU_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/zenithrifile'))()
+	end)
+end
+coroutine.wrap(NTCNSMU_fake_script)()
+local function YLOZNUV_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/eyezen'))()
+	end)
+end
+coroutine.wrap(YLOZNUV_fake_script)()
+local function GALRML_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/big%20sword'))()
+	end)
+end
+coroutine.wrap(GALRML_fake_script)()
+local function SGGUD_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/omnigod'))()
+	end)
+end
+coroutine.wrap(SGGUD_fake_script)()
+local function XVPQRBW_fake_script() -- TextButton_17.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_17)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/banhammer'))()
+	end)
+end
+coroutine.wrap(XVPQRBW_fake_script)()
+local function ITKLZX_fake_script() -- TextButton_18.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_18)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/godslayer'))()
+	end)
+end
+coroutine.wrap(ITKLZX_fake_script)()
+local function WETYDT_fake_script() -- TextButton_19.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_19)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/caducus'))()
+	end)
+end
+coroutine.wrap(WETYDT_fake_script)()
+local function DQBJ_fake_script() -- TextButton_20.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_20)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/madiikFlameThrower'))()
+	end)
+end
+coroutine.wrap(DQBJ_fake_script)()
+local function HNBXZK_fake_script() -- TextButton_21.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_21)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/claws'))()
+	end)
+end
+coroutine.wrap(HNBXZK_fake_script)()
+local function LDFECFN_fake_script() -- TextButton_22.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_22)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/starGlitcher'))()
+	end)
+end
+coroutine.wrap(LDFECFN_fake_script)()
+local function DOMQH_fake_script() -- TextButton_23.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_23)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/grabknifev4'))()
+	end)
+end
+coroutine.wrap(DOMQH_fake_script)()
+local function ZAIEWFI_fake_script() -- TextButton_24.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_24)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/rainbowking'))()
+	end)
+end
+coroutine.wrap(ZAIEWFI_fake_script)()
+local function EPVMSJ_fake_script() -- TextButton_25.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_25)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/echo'))()
+	end)
+end
+coroutine.wrap(EPVMSJ_fake_script)()
+local function CCLNO_fake_script() -- TextButton_26.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_26)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Scythe'))()
+	end)
+end
+coroutine.wrap(CCLNO_fake_script)()
+local function ZCWVK_fake_script() -- TextButton_27.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_27)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/darthvadar'))()
+	end)
+end
+coroutine.wrap(ZCWVK_fake_script)()
+local function STEGOJF_fake_script() -- TextButton_28.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_28)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/x/main/Johndoe'))()
+	end)
+end
+coroutine.wrap(STEGOJF_fake_script)()
+local function TZZK_fake_script() -- TextButton_29.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_29)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/drone'))()
+	end)
+end
+coroutine.wrap(TZZK_fake_script)()
+local function NBCUALT_fake_script() -- TextButton_30.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_30)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/magicman'))()
+	end)
+end
+coroutine.wrap(NBCUALT_fake_script)()
+local function GUCY_fake_script() -- TextButton_31.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_31)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/minigun'))()
+	end)
+end
+coroutine.wrap(GUCY_fake_script)()
+local function HEKSSC_fake_script() -- TextButton_32.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_32)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/sniper'))()
+	end)
+end
+coroutine.wrap(HEKSSC_fake_script)()
+local function UXNR_fake_script() -- TextButton_33.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_33)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/Mad%20man'))()
+	end)
+end
+coroutine.wrap(UXNR_fake_script)()
+local function QPKR_fake_script() -- TextButton_34.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_34)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/SharpShooter'))()
+	end)
+end
+coroutine.wrap(QPKR_fake_script)()
+local function HDKUL_fake_script() -- TextButton_35.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_35)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/overseer'))()
+	end)
+end
+coroutine.wrap(HDKUL_fake_script)()
+local function RNUJUSU_fake_script() -- TextButton_36.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_36)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/ScytheV2'))()
+	end)
+end
+coroutine.wrap(RNUJUSU_fake_script)()
+local function PXNOE_fake_script() -- TextButton_37.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_37)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/guns3'))()
+	end)
+end
+coroutine.wrap(PXNOE_fake_script)()
+local function SQSIV_fake_script() -- TextButton_38.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_38)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ne0n2680/storage/main/wings'))()
+	end)
+end
+coroutine.wrap(SQSIV_fake_script)()
+local function DKFGJ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(DKFGJ_fake_script)()
+local function PTBL_fake_script() -- TextButton_39.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_39)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ScriptButton.LocalScript.Disabled = true
+		script.Parent.Parent.Parent.ExecutorButton.LocalScript.Disabled = true
+		script.Parent.Parent.Parent.SettingsButton.LocalScript.Disabled = true
+		script.Parent.Visible = false
+		script.Parent.Parent.TextButton2.Visible = true
+	end)
+end
+coroutine.wrap(PTBL_fake_script)()
+local function DUTP_fake_script() -- TextButton2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ScriptButton.LocalScript.Disabled = false
+		script.Parent.Parent.Parent.ExecutorButton.LocalScript.Disabled = false
+		script.Parent.Parent.Parent.SettingsButton.LocalScript.Disabled = false
+		script.Parent.Visible = false
+		script.Parent.Parent.TextButton.Visible = true
+	end)
+end
+coroutine.wrap(DUTP_fake_script)()
+local function ZVLB_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	ScreenGui.Parent = game.CoreGui
+end
+coroutine.wrap(ZVLB_fake_script)()
